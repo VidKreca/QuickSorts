@@ -2,7 +2,7 @@
 #### in all languages I know
 Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 
-##### Planned languages
+### Planned languages
 - C++
 - C#
 - Python
@@ -10,7 +10,7 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 - PHP
 - Julia
 
-Maybe:
+##### Maybe:
 - C
 - Go
 - Bash
@@ -22,7 +22,7 @@ Maybe:
 - Store timing results in timing.JSON (if possible)
 
 ### Results
-Specs for testing:
+##### Specs for testing:
 - time is average of atleast 1000 sortings
 - array is 1000 numbers in range (-100, 100)
 - all run on same computer
