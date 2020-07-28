@@ -25,14 +25,15 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 ##### Specs for testing:
 - time is average of atleast 1000 sortings
 - array is 1000 numbers in range (-100, 100)
-- all run on same computer
+- all ran on same computer
 - pseudo-code for timing:
 ```
-start_timer()
-arr = start_array
-quicksort(arr)
-stop_timer()
+for 1000 times:
+	arr = start_array
+	start_timer()
+	quicksort(arr)
+	stop_timer()
 ```
 
 ##### Testing results:
-- **C++** 0.0001739s
+- **C++**   0.0001739s
