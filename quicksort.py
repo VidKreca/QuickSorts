@@ -3,7 +3,7 @@ import time
 
 def partition(arr:list, bottom:int, top:int) -> int:
 	m = arr[(bottom + top) // 2]
-	l, r = bottom, top
+	l, r = bottom-1, top+1
 	
 	while True:
 		while True:
@@ -26,7 +26,7 @@ def qs(arr:list, bottom:int, top:int):
 		qs(arr, j+1, top)
 
 
-def QuickSort(arr:list) -> list:
+def QuickSort(arr:list):
 	qs(arr, 0, len(arr)-1)
 
 
@@ -43,3 +43,6 @@ if __name__ == "__main__":
 
     avg = sum(timings) / n
     print(f"Average time:   {avg}s")
+
+    # DEBUG
+    print(arr)
