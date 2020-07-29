@@ -6,7 +6,7 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 - [x] C++
 - [x] C#
 - [x] Python
-- [ ] JavaScript
+- [x] JavaScript
 - [ ] PHP
 - [ ] Julia
 
@@ -37,6 +37,7 @@ for 1000 times:
 ```
 
 ##### Testing results:
+- **JavaScript**0.0001384s
 - **C++**		0.0001739s
 - **C#**		0.0005233s
 - **Python**	0.0046754s
