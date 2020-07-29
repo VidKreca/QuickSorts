@@ -3,7 +3,6 @@
 Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 
 ### Planned languages
-- C++
 - C#
 - Python
 - JavaScript
@@ -13,10 +12,16 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 ##### Maybe:
 - C
 - Go
+- Lua
 - Bash
 
+##### Done:
+- C++
+
+
 ### Requirements
-- Generic QuickSort() function, that accepts an array/list/vector/whatever and returns it sorted
+- Generic QuickSort() function, that accepts an array/list/vector/whatever 
+- Sorts in place (no extra arrays)
 - Prints time taken to sort the array
 - Gets the array to sort from a JSON array (from data.JSON if possible)
 - Store timing results in timing.JSON (if possible)
@@ -36,4 +41,5 @@ for 1000 times:
 ```
 
 ##### Testing results:
-- **C++**   0.0001739s
+- **C++**		0.0001739s
+- **Python**	0.0046754s
