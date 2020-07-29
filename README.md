@@ -3,21 +3,18 @@
 Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 
 ### Planned languages
-- JavaScript
-- PHP
-- Julia
+- [x] C++
+- [x] C#
+- [x] Python
+- [] JavaScript
+- [] PHP
+- [] Julia
 
 ##### Maybe:
-- C
-- Go
-- Lua
-- Bash
-
-##### Done:
-- C++
-- Python
-- C#
-
+- [] C
+- [] Go
+- [] Lua
+- [] Bash
 
 ### Requirements
 - Generic QuickSort() function, that accepts an array/list/vector/whatever 
@@ -40,5 +37,5 @@ for 1000 times:
 
 ##### Testing results:
 - **C++**		0.0001739s
-- **C#**		0,0005233s
+- **C#**		0.0005233s
 - **Python**	0.0046754s
