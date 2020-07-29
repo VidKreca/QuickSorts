@@ -6,15 +6,15 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 - [x] C++
 - [x] C#
 - [x] Python
-- [] JavaScript
-- [] PHP
-- [] Julia
+- [ ] JavaScript
+- [ ] PHP
+- [ ] Julia
 
 ##### Maybe:
-- [] C
-- [] Go
-- [] Lua
-- [] Bash
+- [ ] C
+- [ ] Go
+- [ ] Lua
+- [ ] Bash
 
 ### Requirements
 - Generic QuickSort() function, that accepts an array/list/vector/whatever 
