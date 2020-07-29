@@ -16,7 +16,7 @@ void printVector(const vector<T> arr) {
 
 
 template <class T>
-int partition(vector<T> &arr, unsigned int bottom, unsigned int top) {
+uint partition(vector<T> &arr, unsigned int bottom, unsigned int top) {
     T m = arr[(bottom + top) / 2];
     int l = bottom-1, r = top+1;
 
@@ -38,7 +38,7 @@ int partition(vector<T> &arr, unsigned int bottom, unsigned int top) {
 
 template <class T>
 void qs(vector<T> &arr, unsigned int bottom, unsigned int top) {
-    int j;
+    uint j;
 
     if (bottom < top) {
         j = partition(arr, bottom, top);
