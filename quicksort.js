@@ -1,3 +1,6 @@
+/*
+	Ran with Node.js on my local machine
+*/
 const {performance} = require('perf_hooks');
 
 
@@ -48,11 +51,10 @@ QuickSort = (arr) => {
 		let start = performance.now()
 		QuickSort(arr)
 		let duration = performance.now() - start
-		timings.push(duration)
+		timings.push(duration / 1000)
 	}
 
 	let avg = timings.reduce((a, b) => a + b, 0) / n
-	avg /= 1000 // convert to microseconds from miliseconds
 
 	console.log("Average time:   "+avg+"s")
 }
