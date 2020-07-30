@@ -37,7 +37,9 @@ for 1000 times:
 ```
 
 ##### Testing results:
-- **JavaScript**	0.0001384s
-- **C++**			0.0001739s
-- **C#**			0.0005233s
-- **Python**		0.0046754s
+ | Language   | seconds   | microseconds |
+ | :---   | :---: | :---: |
+ | **JavaScript** | 0.0001384 | 138.4        |
+ | C++        | 0.0001739 | 173.9        |
+ | C#         | 0.0005233 | 532.3        |
+ | Python     | 0.0046754 | 4675.4       |
