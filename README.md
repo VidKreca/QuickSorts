@@ -48,4 +48,4 @@ for 1000 times:
  | Python     | 0.0046754 | 4675.4       |
 
  ###### Matplotlib graph of time results
- ![Graph showing timing results for all languages](https://i.imgur.com/zXOqtqH.png)
+ ![Graph showing timing results for all languages](https://i.imgur.com/xAKfHr4.png)
