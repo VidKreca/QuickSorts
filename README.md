@@ -46,3 +46,5 @@ for 1000 times:
  | C#         | 0.0005233 | 532.3        |
  | PHP		  | 0.0022380 | 2238.0		 |
  | Python     | 0.0046754 | 4675.4       |
+
+ ![Graph showing timing results for all languages](https://i.imgur.com/zXOqtqH.png)
