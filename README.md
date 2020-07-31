@@ -8,7 +8,7 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 - [x] Python
 - [x] JavaScript
 - [x] PHP
-- [ ] Julia
+- [x] Julia
 
 ##### Maybe:
 - [ ] C
@@ -39,6 +39,7 @@ for 1000 times:
 ##### Testing results:
  | Language   | seconds   | microseconds |
  | :---   | :---: | :---: |
+ | Julia	  | 0.0000367 | 36.7		 |
  | JavaScript | 0.0001384 | 138.4        |
  | C++        | 0.0001739 | 173.9        |
  | C#         | 0.0005233 | 532.3        |

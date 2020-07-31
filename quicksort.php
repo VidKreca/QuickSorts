@@ -3,7 +3,7 @@
 function partition($arr, $bottom, $top) {
 	$m = $arr[($bottom+$top) / 2];
 	$l = $bottom-1; 
-	$r = $top;
+	$r = $top+1;
 
 	while (true) {
 		do {
@@ -35,7 +35,7 @@ function qs($arr, $bottom, $top) {
 
 
 function QuickSort($arr) {
-	qs($arr, 0, count($arr));
+	qs($arr, 0, count($arr)-1);
 }
 
 
