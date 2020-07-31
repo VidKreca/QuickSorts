@@ -43,6 +43,3 @@ if __name__ == "__main__":
 
     avg = sum(timings) / n
     print(f"Average time:   {avg}s")
-
-    # DEBUG
-    print(arr)

@@ -4,16 +4,6 @@
 using namespace std;
 
 
-// Helpers
-template <class T>
-void printVector(const vector<T> arr) {
-    cout << endl;
-    for (auto x : arr)
-        cout << x << " ";
-    cout << endl;
-}
-
-
 
 template <class T>
 uint partition(vector<T> &arr, unsigned int bottom, unsigned int top) {
@@ -31,7 +21,7 @@ uint partition(vector<T> &arr, unsigned int bottom, unsigned int top) {
 
         if (l >= r) return r;
 
-        swap(arr[l], arr[r]);
+        std::swap(arr[l], arr[r]);
     }
 }
 
@@ -55,7 +45,6 @@ void QuickSort(vector<T> &arr) {
 
 
 
-// Entry point
 int main() {
     int n = 10000;
     vector<double> timings;
@@ -68,7 +57,6 @@ int main() {
         timings.push_back(duration);
     }
 
-    // Calculate average time
     double sum = 0;
     for (auto x : timings) {
         sum += x;
