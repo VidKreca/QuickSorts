@@ -1,4 +1,4 @@
-## QuickSort
+## QuickSorts
 #### in all languages I know
 Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 
@@ -39,7 +39,8 @@ for 1000 times:
 ##### Testing results:
  | Language   | seconds   | microseconds |
  | :---   | :---: | :---: |
- | **JavaScript** | 0.0001384 | 138.4        |
+ | JavaScript | 0.0001384 | 138.4        |
  | C++        | 0.0001739 | 173.9        |
  | C#         | 0.0005233 | 532.3        |
+ | PHP		  | 0.0022380 | 2238.0		 |
  | Python     | 0.0046754 | 4675.4       |
