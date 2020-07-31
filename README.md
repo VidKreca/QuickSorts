@@ -7,7 +7,7 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 - [x] C#
 - [x] Python
 - [x] JavaScript
-- [ ] PHP
+- [x] PHP
 - [ ] Julia
 
 ##### Maybe:
