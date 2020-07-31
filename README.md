@@ -16,6 +16,7 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 - [ ] Lua
 - [ ] Bash
 - [ ] Java
+- [ ] Cython
 
 ### Requirements
 - Generic QuickSort() function, that accepts an array/list/vector/whatever 
