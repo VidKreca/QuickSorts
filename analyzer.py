@@ -22,8 +22,14 @@ data = {
 
 
 if __name__ == "__main__":
-	plt.bar(*zip(*data.items()), )
+	plt.bar(*zip(*data.items()), log=True)
 	plt.title("Average time to sort")
 	plt.ylabel("Time in microseconds")
 
+	# Values above bars
+	names, values = zip(*data.items())
+	for i in range(len(names)):
+		plt.text(i-0.4, values[i]*1.1, str(values[i]))
+
+	plt.margins(0.08)
 	plt.show()
