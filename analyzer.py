@@ -11,6 +11,7 @@ Features:
 data = {
 	"C++": 33.6,
 	"Julia": 36.7,
+	"Go": 43.6,
 	"C#": 90.6,
 	"JavaScript": 138.4,
 	"PHP": 2238.0,

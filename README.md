@@ -12,7 +12,7 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 
 ##### Maybe:
 - [ ] C
-- [ ] Go
+- [x] Go
 - [ ] Lua
 - [ ] Bash
 - [ ] Java
@@ -42,6 +42,7 @@ for 1000 times:
  | :---   | :---: | :---: |
  | C++        | 0.0000336 | 33.6         |
  | Julia	  | 0.0000367 | 36.7		 |
+ | Go         | 0.0000436 | 43.6 		 |
  | C#         | 0.0000906 | 90.6         |
  | JavaScript | 0.0001384 | 138.4        |
  | PHP		  | 0.0022380 | 2238.0		 |
