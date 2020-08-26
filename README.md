@@ -48,8 +48,8 @@ for 1000 times:
  | Go             | 0.0000436 | 43.6 		 |
  | C#             | 0.0000906 | 90.6         |
  | JavaScript     | 0.0001384 | 138.4        |
- | PHP		      | 0.0022380 | 2238.0		 |
- | Python         | 0.0046754 | 4675.4       |
+ | PHP		      | 0.0022380 | 2238		 |
+ | Python         | 0.0038240 | 3824         |
 
  ###### Matplotlib graph of time results
  ![Graph showing timing results for all languages](https://raw.githubusercontent.com/VidKreca/QuickSorts/master/graph.png)
