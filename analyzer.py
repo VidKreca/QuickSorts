@@ -9,7 +9,8 @@ Features:
 
 
 data = {
-	"C++": 33.6,
+	"C++ \nw/ vector": 33.6,
+	"C++ \nw/ array": 36.2,
 	"Julia": 36.7,
 	"Go": 43.6,
 	"C#": 90.6,
@@ -29,7 +30,8 @@ if __name__ == "__main__":
 	# Values above bars
 	names, values = zip(*data.items())
 	for i in range(len(names)):
-		plt.text(i-0.4, values[i]*1.1, str(values[i]))
+		plt.text(i-0.4, values[i]*1.1, str(values[i]), fontdict={"size": 9})
 
+	plt.tick_params(axis="both", labelsize="8")
 	plt.margins(0.08)
 	plt.show()

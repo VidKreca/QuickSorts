@@ -42,13 +42,14 @@ for 1000 times:
 ##### Testing results:
  | Language   | seconds   | microseconds |
  | :---   | :---: | :---: |
- | C++        | 0.0000336 | 33.6         |
- | Julia	  | 0.0000367 | 36.7		 |
- | Go         | 0.0000436 | 43.6 		 |
- | C#         | 0.0000906 | 90.6         |
- | JavaScript | 0.0001384 | 138.4        |
- | PHP		  | 0.0022380 | 2238.0		 |
- | Python     | 0.0046754 | 4675.4       |
+ | C++ w/ vector  | 0.0000336 | 33.6         |
+ | C++ w/ array   | 0.0000362 | 36.2         |
+ | Julia	      | 0.0000367 | 36.7		 |
+ | Go             | 0.0000436 | 43.6 		 |
+ | C#             | 0.0000906 | 90.6         |
+ | JavaScript     | 0.0001384 | 138.4        |
+ | PHP		      | 0.0022380 | 2238.0		 |
+ | Python         | 0.0046754 | 4675.4       |
 
  ###### Matplotlib graph of time results
  ![Graph showing timing results for all languages](https://raw.githubusercontent.com/VidKreca/QuickSorts/master/graph.png)

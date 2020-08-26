@@ -6,7 +6,7 @@ using namespace std;
 
 
 template <class T>
-uint partition(vector<T> &arr, unsigned int bottom, unsigned int top) {
+unsigned int partition(vector<T> &arr, unsigned int bottom, unsigned int top) {
     T m = arr[(bottom + top) / 2];
     int l = bottom-1, r = top+1;
 
@@ -28,7 +28,7 @@ uint partition(vector<T> &arr, unsigned int bottom, unsigned int top) {
 
 template <class T>
 void qs(vector<T> &arr, unsigned int bottom, unsigned int top) {
-    uint j;
+    unsigned int j;
 
     if (bottom < top) {
         j = partition(arr, bottom, top);
