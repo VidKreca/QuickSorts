@@ -28,8 +28,8 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 ### Results
 ##### Specs for testing:
 - Time is average of at least 1000 sortings
-- Array is 1000 numbers in range (-100, 100)
-- All ran on same machine
+- Array is 1000 numbers in range (-100, 100), the same every time
+- All ran on the same machine
 - Pseudo-code for timing:
 ```
 for 1000 times:
