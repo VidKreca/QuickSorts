@@ -11,7 +11,7 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 - [x] Julia
 
 ##### Maybe:
-- [ ] C
+- [x] C
 - [x] Go
 - [ ] Lua
 - [ ] Bash
