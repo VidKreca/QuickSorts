@@ -1,5 +1,5 @@
 ## QuickSorts
-#### in all languages I know
+#### in all languages I know (or want to learn)
 Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 
 ### Planned languages
@@ -29,7 +29,7 @@ Inspired by: [geohots mergesorts](https://github.com/geohot/mergesorts)
 ##### Specs for testing:
 - Time is average of at least 1000 sortings
 - Array is 1000 numbers in range (-100, 100)
-- All ran on same computer
+- All ran on same machine
 - Pseudo-code for timing:
 ```
 for 1000 times:
